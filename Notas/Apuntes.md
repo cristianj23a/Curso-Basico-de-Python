@@ -16,14 +16,14 @@ La programación es dar solución tecnológica a distintos problemas y en el mer
 
 Python es multiplataforma y se adapta a distintos tipos de soluciones como en Inteligencia artificial, Backend, Data Sience, Videos Juegos y Desarrollo Móvil.
 
-**Frontend**: Se encarga de llegar el diseño de un sistema a la realidad.
-**IOT** (Internet de las cosas): Se encarga de conectarse a internet a elementos como electrodomésticos, robots, etc.
-**Inteligencia Artificial**: Enseña a la computadora en aprender a resolver un problema sin que una persona intervenga.
-**Backend**: Se crear la lógica para que el sistema funcione.
-**DevOps**: controla la infraestructura donde funciones la aplicación.
-**Data Sience**: Toma los datos de la entidad y genera información valiosa como para aumentar la eficacia de un negocio o empresa.
-**Video Juegos**: Es una combinación de arte, programación y entretenimiento para generar una buena experiencia de usuario.
-**Desarrollo Móvil**: Crean aplicaciones que viven en la play store para brindar distintos tipos de soluciones o experiencias de usuarios.
+-**Frontend**: Se encarga de llegar el diseño de un sistema a la realidad.
+**IOT** (Internet de las cosas): Se encarga de conectarse a internet a -elementos como electrodomésticos, robots, etc.
+-**Inteligencia Artificial**: Enseña a la computadora en aprender a resolver un problema sin que una persona intervenga.
+-**Backend**: Se crear la lógica para que el sistema funcione.
+-**DevOps**: controla la infraestructura donde funciones la aplicación.
+-**Data Sience**: Toma los datos de la entidad y genera información valiosa como para aumentar la eficacia de un negocio o empresa.
+-**Video Juegos**: Es una combinación de arte, programación y entretenimiento para generar una buena experiencia de usuario.
+-**Desarrollo Móvil**: Crean aplicaciones que viven en la play store para brindar distintos tipos de soluciones o experiencias de usuarios.
 
 Una de las muchas ventajas que tienes python es la buenas prácticas, código elegante y de fácil entendimiento.
 
