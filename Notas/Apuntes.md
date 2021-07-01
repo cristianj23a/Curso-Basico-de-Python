@@ -16,8 +16,8 @@ La programación es dar solución tecnológica a distintos problemas y en el mer
 
 Python es multiplataforma y se adapta a distintos tipos de soluciones como en Inteligencia artificial, Backend, Data Sience, Videos Juegos y Desarrollo Móvil.
 
--[**Frontend**]: Se encarga de llegar el diseño de un sistema a la realidad.
--[**IOT**] (Internet de las cosas): Se encarga de conectarse a internet a elementos como electrodomésticos, robots, etc.
+- **Frontend**: Se encarga de llegar el diseño de un sistema a la realidad.
+- **IOT**: (Internet de las cosas): Se encarga de conectarse a internet a elementos como electrodomésticos, robots, etc.
 **Inteligencia Artificial**: Enseña a la computadora en aprender a resolver un problema sin que una persona intervenga.
 **Backend**: Se crear la lógica para que el sistema funcione.
 **DevOps**: controla la infraestructura donde funciones la aplicación.
