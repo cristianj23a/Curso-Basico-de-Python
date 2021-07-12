@@ -231,6 +231,7 @@ dolares = round(dolares,2)
 dolares = str(dolares)
 print("Tienes $" + dolares + " dólares")
 ```
+
 ## Módulo 3 Herramientas para programar
 
 ### Clase 13 Construyendo el camino de un programa con condicionales
@@ -466,6 +467,7 @@ def run():
 if __name__ == '__main__':
     run()
 ```
+
 ## Módulo 4 Bucles
 
 ### Clase 20 Aprendiendo bucles
