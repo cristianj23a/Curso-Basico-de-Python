@@ -91,7 +91,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 ### Clase 9 ¿Qué es una variable?
 
 Es una caja donde se puede guardar objetos: números, texto, etc.
-
+```
 λ python
 Python 3.8.3 (tags/v3.8.3:6f8c832, May 13 2020, 22:37:02) [MSC v.1924 64 bit (AMD64)] on win32
 Type "help", "copyright", "credits" or "license" for more information.
@@ -110,6 +110,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 6
 >>> res
 6
+```
 
 ### Clase 10 Los primitivos: tipos de datos sencillos
 
@@ -120,6 +121,7 @@ Tanto como python o cualquier lenguaje de programación tiene 4 tipos de datos p
 3.- Texto o String (Cadena de Caracteres)
 4.- Booleanos (Verdadero o Falso)
 
+```
 λ python
 Python 3.8.3 (tags/v3.8.3:6f8c832, May 13 2020, 22:37:02) [MSC v.1924 64 bit (AMD64)] on win32
 Type "help", "copyright", "credits" or "license" for more information.
@@ -147,9 +149,11 @@ Type "help", "copyright", "credits" or "license" for more information.
 True
 >>> print(es_estudiante)
 True
+```
 
 ### Clase 11 Convertir un dato a un tipo diferente
 
+```
 Python 3.8.3 (tags/v3.8.3:6f8c832, May 13 2020, 22:37:02) [MSC v.1924 64 bit (AMD64)] on win32
 Type "help", "copyright", "credits" or "license" for more information.
 >>> num1 = input("Escribe un número: ")
@@ -177,6 +181,7 @@ Escribe un número: 5
 4.5
 >>> str(num_dec)
 '4.5'
+```
 
 ### Clase 11 Convertir un dato a un tipo diferente
 
@@ -192,6 +197,7 @@ and para comparar si dos valores son verdaderos.
 >= igual o mayor que el valor a comparar.
 <= igual o menor que el valor a comparar.
 
+```
 >>> est = True
 >>> est
 True
@@ -218,9 +224,11 @@ True
 >>> num1 > num3
 False
 >>> num1 < num3
+```
 
 ### Clase 12 Tu primer programa: conversor de monedas
 
+```
 soles = input("¿Cuántos soles tienes?: ")
 soles = float(soles)
 valor_dolar = float(3.95)
@@ -228,9 +236,11 @@ dolares = soles * valor_dolar
 dolares = round(dolares,2)
 dolares = str(dolares)
 print("Tienes $" + dolares + " dólares")
+```
 
 ### Clase 13 Construyendo el camino de un programa con condicionales
 
+```
 edad = int(input("Escribe tu edad: "))
 if edad > 17:
     print('Eres mayor de edad')
@@ -245,9 +255,11 @@ elif numero == 5:
     print('El igual a 5')
 else:
     print('Es menor a 5')
+```
 
 ### Clase 14 Varios países en mi conversor de monedas
 
+```
 menu = """
 Bienvenido al conversor de monedas 💰
 
@@ -297,11 +309,13 @@ elif opcion == 4:
 
 else:
     print('Por favor ingresa la opción correcta')
+```
 
 ### Clase 15 Aprendiendo a no repetir código con funciones
 
 Para evitar repetir el mismo codigo, podemos usar la función "def" que sirve para reutilizar el mismo codigo.
 
+```
 def conversacion(mensaje):
     print('Hola')
     print('Cómo estás')
@@ -317,9 +331,11 @@ elif opcion == 3:
     conversacion('Elegiste la opción 3')
 else:
     print('Escribe la opción correcta')
+```
 
 ### Clase 16 Modularizando nuestro conversor de monedas
 
+```
 def conversor(tipo_moneda, valor_dolar):
     moneda = input("¿Cuántos " + tipo_moneda + " tienes?: ")
     moneda = float(moneda)
@@ -352,6 +368,7 @@ elif opcion == 4:
 
 else:
     print('Por favor ingresa la opción correcta')
+```
 
 ### Clase 17 Trabajando con texto: cadenas de caracteres
 
@@ -363,6 +380,7 @@ replace: Sirve para reemplazar textos, la sintaxis es texto.replace().
 [numero]: sirve para acceder al texto de una palabra, la sintaxis es texto[0] con este codigo accedes a la primera letra del texto.
 len: Sirve para contar la cantidad de letras en una palabra, la sintaxis es len(texto).
 
+```
 ¿Cuál es tu nombre?: Cristian
 >>> nombre.upper()
 'CRISTIAN'
@@ -396,11 +414,13 @@ len: Sirve para contar la cantidad de letras en una palabra, la sintaxis es len(
 'c'
 >>> len(nombre)
 8
+```
 
 ### Clase 18 Trabajando con texto: slices
 
 La slice son para particionar un texto y leer el orden deseado.
 
+```
 >>> nombre = "Cristian"
 >>> nombre
 'Cristian'
@@ -420,6 +440,7 @@ La slice son para particionar un texto y leer el orden deseado.
 'rt'
 >>> nombre[::-1]
 'naitsirC'
+```
 
 ### Clase 19 Proyecto: palíndromo
 
@@ -428,6 +449,7 @@ Un palindromo es una palabra o frase que se lee igual en un sentido que en otro.
 
 luz azul
 
+```
 def palindromo(palabra):
     palabra = palabra.replace(' ','')
     palabra = palabra.lower()
@@ -448,9 +470,11 @@ def run():
 
 if __name__ == '__main__':
     run()
+```
 
 ### Clase 20 Aprendiendo bucles
 
+```
 contador = 0
 print('2 elevado a ' + str(contador) + ' es igual a: ' + str(2**contador)) 
 contador = 1
@@ -461,6 +485,7 @@ contador = 3
 print('2 elevado a ' + str(contador) + ' es igual a: ' + str(2**contador)) 
 contador = 4
 print('2 elevado a ' + str(contador) + ' es igual a: ' + str(2**contador)) 
+```
 
 ### Clase 21 El ciclo while
 
@@ -468,6 +493,7 @@ While: permite repetir la ejecución de un grupo de instrucciones mientras se cu
 
 Las contantes se declaran en mayuscula.
 
+```
 def run():
     LIMITE = 1000
 
@@ -480,9 +506,11 @@ def run():
 
 if __name__ == '__main__':
     run()
+```
 
 ### Clase 22 Explorando un bucle diferente: el ciclo for
 
+```
 for: es un bucle que tiene la misma función de while pero con una sintaxis de menos codigo.
 
  for contador in range(1,1001):
@@ -490,9 +518,11 @@ for: es un bucle que tiene la misma función de while pero con una sintaxis de m
 
 for i in range(1,11):
     print(11*i)
+```
 
 ### Clase 23 Recorriendo un string con for
 
+```
 def run():
     frase = input('Escribe una frase: ')
     for caracter in frase:
@@ -500,12 +530,14 @@ def run():
 
 if __name__ == '__main__':
     run()
+```
 
 ### Clase 24 Interrumpiendo ciclos con break y continue
 
 break: cancela la ejecución del programa hasta la linea donde se declaro el break.
 continue: salta las lineas de condigo de abajo hasta que se dija lo contrario.
 
+```
 def run():
     # for contador in range(100):
     #     if contador % 2 != 0:
@@ -525,9 +557,11 @@ def run():
 
 if __name__ == '__main__':
     run()
+```
 
 ### Clase 25 Proyecto: prueba de primalida
 
+```
 def es_primo(numero):
     contador = 0
 
@@ -550,9 +584,11 @@ def run():
 
 if __name__ == '__main__':
     run()
+```
 
 ### Clase 26 Proyecto: videojuego
 
+```
 import random
 
 def run():
@@ -568,11 +604,13 @@ def run():
 
 if __name__ == '__main__':
     run()
-    
+```
+
 ### Clase 27 Almacenar varios valores en una variable: listas
 
 listas: pueden almacenar tantos valores como desees con cualquier tipo de datos.
 
+```
 >>> numeros = [1,2,3,5,76]
 >>> numeros
 [1, 2, 3, 5, 76]
@@ -592,11 +630,13 @@ NameError: name 'objeto' is not defined
 2
 >>> objetos
 ['hola', 4.5, True, False]
+```
 
 ### Clase 28 Entendiendo cómo funcionan las tuplas
 
 Las tuplas son un tipo de datos estatico, lo cual significa que no se puede agregar o eliminar datos. La ventaja sobre las listas es que el recorrido es mucho mas rapido.
 
+```
 >>> mi_tupla = (1,2,3,4,5)
 >>> mi_tupla
 (1, 2, 3, 4, 5)
@@ -608,11 +648,13 @@ Las tuplas son un tipo de datos estatico, lo cual significa que no se puede agre
 3
 4
 5
+```
 
 ### Clase 29 ¿Qué son los diccionarios?
 
 Es una estructura de valores de llaves y datos, el acceso a estos datos es a traves de las llave unicas.
 
+```
 def run():
     mi_diccionario = {
         'llave1':1,
@@ -647,10 +689,11 @@ def run():
 
 if __name__ == '__main__':
     run()
+```
 
 ### Clase 30 Proyecto: generador de contraseñas
 
-
+```
 import random
 
 def generar_contrasena():
@@ -676,4 +719,4 @@ def run():
 
 if __name__ == '__main__':
     run()
-
+```
