@@ -1,13 +1,5 @@
 # Curso Básico de Python
 
-- [Curso Básico de Python](#curso-básico-de-python)
-  - [Módulo 1 Introduccion a la programación con Python](#modulo-1-introduccion-a-la-programacion-con-python)
-    - [Clase 1 El arte de la programación](#clase-1-el-arte-de-la-programacion)
-  - [Módulo 2 Conceptos básicos de Python](#modulo-2-conceptos-basicos-de-python)
-    - [Clase 1 Explorando Python: operadores aritméticos](#clase-1-el-arte-de-la-programacion)
-  (#modulo-3-conceptos-basicos-de-python)
-    - [Clase 1 Explorando Python: operadores aritméticos](#clase-1-el-arte-de-la-programacion)
-
 ## Módulo 1 Introducción a la programación con Python
 
 ### Clase 1 El arte de la programación
