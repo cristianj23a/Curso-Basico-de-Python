@@ -62,7 +62,7 @@ touch nombre: Crear archivo
 ### Clase 8 Explorando Python: operadores aritméticos
 Python obedece la reglas matematicas, por ejemplo si 5 + 5 * 2 dara como resultado 15.
 Ejmp:
-
+```
 λ python3
 Python 3.8.7 (default, Jan 18 2021, 21:09:34)  [GCC 10.2.0 64 bit (AMD64)] on win32
 Type "help", "copyright", "credits" or "license" for more information.
@@ -86,6 +86,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 8
 >>> 5 + 5 * 2
 15
+```
 
 ### Clase 9 ¿Qué es una variable?
 
