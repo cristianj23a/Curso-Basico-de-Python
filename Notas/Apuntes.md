@@ -51,6 +51,8 @@ ls: saber que archivos hay en la carpeta
 mkdir nombre: crear carpeta
 touch nombre: Crear archivo
 
+## Módulo 2 Conceptos básicos de Python
+
 ### Clase 8 Explorando Python: operadores aritméticos
 Python obedece la reglas matematicas, por ejemplo si 5 + 5 * 2 dara como resultado 15.
 Ejmp:
@@ -229,6 +231,7 @@ dolares = round(dolares,2)
 dolares = str(dolares)
 print("Tienes $" + dolares + " dólares")
 ```
+## Módulo 3 Herramientas para programar
 
 ### Clase 13 Construyendo el camino de un programa con condicionales
 
@@ -463,6 +466,7 @@ def run():
 if __name__ == '__main__':
     run()
 ```
+## Módulo 4 Bucles
 
 ### Clase 20 Aprendiendo bucles
 
@@ -597,6 +601,8 @@ def run():
 if __name__ == '__main__':
     run()
 ```
+
+## Módulo 5 Estructuras de datos
 
 ### Clase 27 Almacenar varios valores en una variable: listas
 
